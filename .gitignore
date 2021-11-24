@@ -1,0 +1,5 @@
+upload.py
+build/*
+dist/*
+anonupload.egg-info/*
+__pycache__*
