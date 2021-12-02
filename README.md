@@ -33,3 +33,15 @@ pip3 install anonupload==1.0.1
 anon {path-to-file 1} {path-to-file 2}...
 ```
 ## You can change file name before upload on anonfile server
+
+# API
+
+The anonfile-upload client is also usable through an API (for test integration, automation, etc)
+
+### anonupload.main.upload([file_path])
+
+```py
+from anonupload import main
+
+upload([file_path])
+```
