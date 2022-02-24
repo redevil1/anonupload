@@ -41,7 +41,7 @@ The anonfile-upload client is also usable through an API (for test integration, 
 ### anonupload.main.upload([file_path])
 
 ```py
-from anonupload import main
+from anonupload.main import upload
 
 upload([file_path])
 ```
